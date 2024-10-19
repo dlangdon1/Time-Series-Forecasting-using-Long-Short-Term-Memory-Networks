@@ -1,6 +1,6 @@
 # Recurrent Neural Network for Time Series Forecasting
 
-<a href="url" align="center"><img src="https://github.com/IvanBongiorni/RNN_TimeSeries-Forecast/blob/master/utils/banner_00.png" align="center" height="304" width="800" ></a>
+<a href="url" align="center"><img src="https://github.com/dlangdon1/Time-Series-Forecasting-using-Long-Short-Term-Memory-Networks/blob/main/utils/banner_00.png" align="center" height="304" width="800" ></a>
 
 ---
 
@@ -22,7 +22,7 @@ Main files:
 I also added a `visualize_performance.ipynb` Jupyter Notebook to visually inspect models' performance on Test data.
 
 Folders:
-- `/data_raw/`: requires unzipped `train_2.csv` file from [Kaggle](https://www.kaggle.com/c/web-traffic-time-series-forecasting/). Available is an `imputed.csv` dataset, containing imputed time series, coming from my other repository on a [GAN for imputation of missing data in time series](https://github.com/IvanBongiorni/GAN-RNN_Timeseries-imputation).
+- `/data_raw/`: requires unzipped `train_2.csv` file from [Kaggle](https://www.kaggle.com/c/web-traffic-time-series-forecasting/). Available is an `imputed.csv` dataset, containing imputed time series, coming from my other repository on a [GAN for imputation of missing data in time series](https://github.com/dlangdon1/Convolutional-Recurrent-Seq2seq-GAN-for-the-Imputation-in-Time-Series-Data.git).
 - `/data_processed/`: divided in `/Train/` and `/Test/` directories.
 - `/saved_models/`: contains all saved TensorFlow models, both regressors.
 - `/utils/`: for pics and other secondary files.
@@ -44,13 +44,13 @@ Finally, Test set performance will be evaluated from `test.ipynb` notebook.
 
 ## Modules
 ```
-numpy==1.18.3
-pandas==1.0.3
-scikit-learn==0.22.2.post1
-scipy==1.4.1
-tensorflow==2.1.0
-tqdm==4.45.0
+numpy==2.1.2
+pandas==2.2.3
+scikit-learn==1.5.1.post1
+scipy==1.14.1
+tensorflow==2.16.1
+tqdm==4.66.5
 ```
 
 ## Hardware
-I used a pretty powerful laptop, with 64GB or RAM and NVidia RTX 2070 GPU. I highly recommend GPU training to avoid excessive computational times.
+I used a pretty powerful laptop, with 32GB or RAM and NVidia RTX 3070 GPU. I highly recommend GPU training to avoid excessive computational times.
